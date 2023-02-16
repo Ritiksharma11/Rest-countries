@@ -123,10 +123,6 @@ const Countries = () => {
                             </form>
                         </div>
 
-                        {/* {error && <div className='py-4'>{error}</div>}
-                        {
-                            error ? <div className='py-4'><Error/></div> : ''
-                        } */}
                         <div className='grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3'>
                             {
                                 countries.map((country) => (
